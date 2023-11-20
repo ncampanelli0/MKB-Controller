@@ -7,11 +7,11 @@ public class MKBController
 
     private struct mouseInput
     {
-        public const int mouse_eventLeftDown = 0x02;
-        public const int mouse_eventLeftUp = 0x04;
-        public const int mouse_eventRightDown = 0x08;
-        public const int mouse_eventRightUp = 0x10;
-        public const int mouse_eventWheel = 0x0800;
+        public const int mouseEventLeftDown = 0x02;
+        public const int mouseEventLeftUp = 0x04;
+        public const int mouseEventRightDown = 0x08;
+        public const int mouseEventRightUp = 0x10;
+        public const int mouseEventWheel = 0x0800;
     }
 
     private struct keyboardInput
@@ -32,12 +32,12 @@ public class MKBController
 
     public void LeftMouseDown()
     {
-        mouse_event(mouseInput.mouse_eventLeftDown, 0, 0, 0, 0);
+        mouse_event(mouseInput.mouseEventLeftDown, 0, 0, 0, 0);
     }
 
     public void LeftMouseUp()
     {
-        mouse_event(mouseInput.mouse_eventLeftUp, 0, 0, 0, 0);
+        mouse_event(mouseInput.mouseEventLeftUp, 0, 0, 0, 0);
     }
 
     public void LeftMouseClick()
@@ -48,12 +48,12 @@ public class MKBController
 
     public void RightMouseDown()
     {
-        mouse_event(mouseInput.mouse_eventRightDown, 0, 0, 0, 0);
+        mouse_event(mouseInput.mouseEventRightDown, 0, 0, 0, 0);
     }
 
     public void RightMouseUp()
     {
-        mouse_event(mouseInput.mouse_eventRightUp, 0, 0, 0, 0);
+        mouse_event(mouseInput.mouseEventRightUp, 0, 0, 0, 0);
     }
 
     public void RightMouseClick()
@@ -64,12 +64,12 @@ public class MKBController
 
     public void ScrollUp(int scrollAmount = 200)
     {
-        mouse_event(mouseInput.mouse_eventWheel, 0, 0, scrollAmount, 0);
+        mouse_event(mouseInput.mouseEventWheel, 0, 0, scrollAmount, 0);
     }
 
     public void ScrollDown(int ScrollAmount = -200)
     {
-        mouse_event(mouseInput.mouse_eventWheel, 0, 0, ScrollAmount, 0);
+        mouse_event(mouseInput.mouseEventWheel, 0, 0, ScrollAmount, 0);
     }
 
     public void KeyType(string key)
