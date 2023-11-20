@@ -76,7 +76,7 @@ public class MKBController
 
     public void KeyType(string key)
     {
-        SendKeys.Send(key);
+        SendKeys.SendWait(key);
     }
 
 }
