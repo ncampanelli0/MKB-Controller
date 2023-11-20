@@ -2,6 +2,8 @@
 using System.Windows.Forms;
 using System.Threading;
 
+//https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.sendkeys.send?view=windowsdesktop-8.0&redirectedfrom=MSDN#System_Windows_Forms_SendKeys_Send_System_String_
+
 public class MKBController
 {
 
@@ -76,22 +78,5 @@ public class MKBController
     {
         SendKeys.Send(key);
     }
-
-    public void KeyDown(string key)
-    {
-        SendKeys.SendWait($"+{key}");
-    }
-
-    public void KeyUp(string key)
-    {
-        SendKeys.SendWait($"-{key}");
-    }
-
-    public void keyPress(string key)
-    {
-        KeyDown($"+{key}");
-        KeyUp($"-{key}");
-    }
-
 
 }
