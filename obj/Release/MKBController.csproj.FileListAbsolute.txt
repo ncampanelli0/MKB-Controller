@@ -1,0 +1,11 @@
+D:\programmingfiles\c#\MKBController\MKBController\bin\Release\MKBController.dll.config
+D:\programmingfiles\c#\MKBController\MKBController\bin\Release\MKBController.dll
+D:\programmingfiles\c#\MKBController\MKBController\bin\Release\MKBController.pdb
+D:\programmingfiles\c#\MKBController\MKBController\obj\Release\MKBController.csproj.AssemblyReference.cache
+D:\programmingfiles\c#\MKBController\MKBController\obj\Release\Interop.EnvDTE.dll
+D:\programmingfiles\c#\MKBController\MKBController\obj\Release\Interop.VSLangProj.dll
+D:\programmingfiles\c#\MKBController\MKBController\obj\Release\Interop.VSLangProj2.dll
+D:\programmingfiles\c#\MKBController\MKBController\obj\Release\MKBController.csproj.ResolveComReference.cache
+D:\programmingfiles\c#\MKBController\MKBController\obj\Release\MKBController.csproj.CoreCompileInputs.cache
+D:\programmingfiles\c#\MKBController\MKBController\obj\Release\MKBController.dll
+D:\programmingfiles\c#\MKBController\MKBController\obj\Release\MKBController.pdb
