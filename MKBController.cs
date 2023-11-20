@@ -77,20 +77,20 @@ public class MKBController
         SendKeys.Send(key);
     }
 
-    public void KeyDown(byte key)
+    public void KeyDown(string key)
     {
-        keyboardEvent(key, 0, 0, 0);
+        SendKeys.SendWait($"+{key}");
     }
 
-    public void KeyUp(byte key)
+    public void KeyUp(string key)
     {
-        keyboardEvent(key, 0, keyboardInput.keyEventUp, 0);
+        SendKeys.SendWait($"-{key}");
     }
 
-    public void keyPress(byte key)
+    public void keyPress(string key)
     {
-        KeyDown(key);
-        KeyUp(key);
+        KeyDown($"+{key}");
+        KeyUp($"-{key}");
     }
 
 

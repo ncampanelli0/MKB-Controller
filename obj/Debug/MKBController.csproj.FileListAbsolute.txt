@@ -9,3 +9,14 @@ D:\programmingfiles\c#\MKBController\MKBController\obj\Debug\MKBController.cspro
 D:\programmingfiles\c#\MKBController\MKBController\obj\Debug\MKBController.csproj.CoreCompileInputs.cache
 D:\programmingfiles\c#\MKBController\MKBController\obj\Debug\MKBController.dll
 D:\programmingfiles\c#\MKBController\MKBController\obj\Debug\MKBController.pdb
+D:\programmingfiles\c#\MKBController\MKB-Controller\bin\Debug\MKBController.dll.config
+D:\programmingfiles\c#\MKBController\MKB-Controller\bin\Debug\MKBController.dll
+D:\programmingfiles\c#\MKBController\MKB-Controller\bin\Debug\MKBController.pdb
+D:\programmingfiles\c#\MKBController\MKB-Controller\obj\Debug\MKBController.csproj.AssemblyReference.cache
+D:\programmingfiles\c#\MKBController\MKB-Controller\obj\Debug\Interop.EnvDTE.dll
+D:\programmingfiles\c#\MKBController\MKB-Controller\obj\Debug\Interop.VSLangProj.dll
+D:\programmingfiles\c#\MKBController\MKB-Controller\obj\Debug\Interop.VSLangProj2.dll
+D:\programmingfiles\c#\MKBController\MKB-Controller\obj\Debug\MKBController.csproj.ResolveComReference.cache
+D:\programmingfiles\c#\MKBController\MKB-Controller\obj\Debug\MKBController.csproj.CoreCompileInputs.cache
+D:\programmingfiles\c#\MKBController\MKB-Controller\obj\Debug\MKBController.dll
+D:\programmingfiles\c#\MKBController\MKB-Controller\obj\Debug\MKBController.pdb
